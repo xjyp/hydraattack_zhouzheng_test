@@ -1,0 +1,214 @@
+{
+  "Gemma-3-4B": {
+    "Code Judge Bench": [
+      [
+        "Uncertainty Attack",
+        724,
+        4.281767955801105
+      ],
+      [
+        "Position Attack",
+        391,
+        85.93350383631714
+      ],
+      [
+        "Unicode Attack",
+        48,
+        10.416666666666668
+      ]
+    ],
+    "Alpaca Eval": [
+      [
+        "Prompt Injection",
+        153,
+        42.48366013071895
+      ],
+      [
+        "Position Attack",
+        96,
+        46.875
+      ],
+      [
+        "Marker Injection",
+        52,
+        51.92307692307693
+      ]
+    ],
+    "Arena Hard": [
+      [
+        "Position Attack",
+        141,
+        94.32624113475178
+      ],
+      [
+        "Emoji Attack",
+        105,
+        1.9047619047619049
+      ],
+      [
+        "Prompt Injection",
+        68,
+        10.294117647058822
+      ]
+    ]
+  },
+  "Llama-3.1-8B": {
+    "Code Judge Bench": [
+      [
+        "CoT Poisoning",
+        434,
+        50.69124423963134
+      ],
+      [
+        "Prompt Injection",
+        218,
+        79.81651376146789
+      ],
+      [
+        "Formatting Attack",
+        45,
+        0.0
+      ]
+    ],
+    "Alpaca Eval": [
+      [
+        "Prompt Injection",
+        113,
+        87.61061946902655
+      ],
+      [
+        "Distractor Attack",
+        98,
+        35.714285714285715
+      ],
+      [
+        "Marker Injection",
+        98,
+        11.224489795918368
+      ]
+    ],
+    "Arena Hard": [
+      [
+        "Prompt Injection",
+        187,
+        74.8663101604278
+      ],
+      [
+        "Position Attack",
+        11,
+        36.36363636363637
+      ],
+      [
+        "FlipAttack FCS",
+        7,
+        14.285714285714285
+      ]
+    ]
+  },
+  "Mistral-7B": {
+    "Arena Hard": [
+      [
+        "Emoji Attack",
+        129,
+        17.05426356589147
+      ],
+      [
+        "Marker Injection",
+        94,
+        60.63829787234043
+      ],
+      [
+        "Prompt Injection",
+        58,
+        56.896551724137936
+      ]
+    ],
+    "Code Judge Bench": [
+      [
+        "Emoji Attack",
+        378,
+        38.62433862433862
+      ],
+      [
+        "Prompt Injection",
+        258,
+        69.76744186046511
+      ],
+      [
+        "Marker Injection",
+        76,
+        82.89473684210526
+      ]
+    ],
+    "Alpaca Eval": [
+      [
+        "Formatting Attack",
+        261,
+        11.877394636015326
+      ],
+      [
+        "Position Attack",
+        130,
+        81.53846153846153
+      ],
+      [
+        "Marker Injection",
+        24,
+        37.5
+      ]
+    ]
+  },
+  "GLM-4-9B": {
+    "Code Judge Bench": [
+      [
+        "CoT Poisoning",
+        404,
+        14.603960396039604
+      ],
+      [
+        "Position Attack",
+        272,
+        69.11764705882352
+      ],
+      [
+        "Uncertainty Attack",
+        147,
+        52.38095238095239
+      ]
+    ],
+    "Alpaca Eval": [
+      [
+        "Position Attack",
+        161,
+        68.94409937888199
+      ],
+      [
+        "Formatting Attack",
+        61,
+        24.59016393442623
+      ],
+      [
+        "Prompt Injection",
+        43,
+        46.51162790697674
+      ]
+    ],
+    "Arena Hard": [
+      [
+        "Position Attack",
+        107,
+        70.09345794392523
+      ],
+      [
+        "Prompt Injection",
+        57,
+        66.66666666666666
+      ],
+      [
+        "CoT Poisoning",
+        56,
+        8.928571428571429
+      ]
+    ]
+  }
+}

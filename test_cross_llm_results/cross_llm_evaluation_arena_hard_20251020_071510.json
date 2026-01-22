@@ -1,0 +1,22 @@
+{
+  "benchmark": "arena_hard",
+  "judge_model_path": "/share/disk/llm_cache/Qwen3-0.6B",
+  "judge_type": "qwen",
+  "dqn_model_path": "./results/rl_generation_test_20251019_192643/arena_hard_20251019_192643/fast_rl_attacker_arena_hard.pth",
+  "dqn_config_path": "./results/rl_generation_test_20251019_192643/arena_hard_20251019_192643/training_config_arena_hard.json",
+  "max_samples": "3",
+  "max_queries": 2,
+  "evaluation_time": 3.356391191482544,
+  "success_rate": 0.6666666666666666,
+  "avg_queries": 1.3333333333333333,
+  "avg_reward": 13.9,
+  "total_samples": 3,
+  "successful_attacks": 2,
+  "env_params": {
+    "success_reward": 20.0,
+    "query_penalty": 0.5,
+    "diversity_bonus": 1.0,
+    "efficiency_bonus": 2.0,
+    "confidence_threshold": 0.7
+  }
+}

@@ -1,0 +1,30 @@
+\begin{table}[h]
+
+\centering
+
+\caption{Ablation Study Results}
+
+\label{tab:ablation}
+
+\small
+
+\resizebox{\linewidth}{!}{%
+
+\begin{tabular}{lccc}
+
+\toprule
+\textbf{Variant} & \textbf{Arena Hard} & \textbf{Alpaca Eval} & \textbf{Code Judge Bench} \\
+\hline
+Full HydraAttack & 92.7 & 83.2 & 97.9 \\
+\hline
+Random Selection & 83.3 & 85.1 & 93.3 \\
+Single-Step Attack & 56.7 & 50.3 & 26.6 \\
+No Prioritized Replay & 87.3 & 87.6 & 97.4 \\
+Basic Reward & 88.7 & 87.6 & 98.3 \\
+
+\bottomrule
+\end{tabular}
+
+}
+
+\end{table}

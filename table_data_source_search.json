@@ -1,0 +1,136 @@
+{
+  "Gemma-3-4B_Alpaca Eval": [
+    {
+      "file": "results_rainbowdqn/rl_generation_rainbowdqn_test_20251124_074945/alpaca_eval_gemma_20251124_185150/attack_usage_stats_test.json",
+      "matches": 1,
+      "details": [
+        {
+          "attack": "FlipAttackFCS",
+          "count": 161,
+          "target_count": 161,
+          "asr": 31.05590062111801,
+          "target_asr": 31.1,
+          "count_match": true,
+          "asr_match": true
+        },
+        {
+          "attack": "MarkerInjectionAttack",
+          "count": 98,
+          "target_count": 153,
+          "asr": 50.0,
+          "target_asr": 55.6,
+          "count_match": false,
+          "asr_match": false
+        },
+        {
+          "attack": "PositionAttack",
+          "count": 0,
+          "target_count": 28,
+          "asr": 0.0,
+          "target_asr": 21.4,
+          "count_match": false,
+          "asr_match": false
+        }
+      ]
+    },
+    {
+      "file": "results_rainbowdqn/rl_generation_rainbowdqn_test_20251124_074945/alpaca_eval_gemma_20251124_185150/summary/attack_usage_stats_test.json",
+      "matches": 1,
+      "details": [
+        {
+          "attack": "FlipAttackFCS",
+          "count": 161,
+          "target_count": 161,
+          "asr": 31.05590062111801,
+          "target_asr": 31.1,
+          "count_match": true,
+          "asr_match": true
+        },
+        {
+          "attack": "MarkerInjectionAttack",
+          "count": 98,
+          "target_count": 153,
+          "asr": 50.0,
+          "target_asr": 55.6,
+          "count_match": false,
+          "asr_match": false
+        },
+        {
+          "attack": "PositionAttack",
+          "count": 0,
+          "target_count": 28,
+          "asr": 0.0,
+          "target_asr": 21.4,
+          "count_match": false,
+          "asr_match": false
+        }
+      ]
+    },
+    {
+      "file": "results_rainbowdqn_ablation/rl_generation_rainbowdqn_ablation_20251128_232319/baseline/full_config/alpaca_eval_gemma_20251129_010419/attack_usage_stats_test.json",
+      "matches": 1,
+      "details": [
+        {
+          "attack": "FlipAttackFCS",
+          "count": 161,
+          "target_count": 161,
+          "asr": 31.05590062111801,
+          "target_asr": 31.1,
+          "count_match": true,
+          "asr_match": true
+        },
+        {
+          "attack": "MarkerInjectionAttack",
+          "count": 138,
+          "target_count": 153,
+          "asr": 57.971014492753625,
+          "target_asr": 55.6,
+          "count_match": false,
+          "asr_match": false
+        },
+        {
+          "attack": "PositionAttack",
+          "count": 0,
+          "target_count": 28,
+          "asr": 0.0,
+          "target_asr": 21.4,
+          "count_match": false,
+          "asr_match": false
+        }
+      ]
+    },
+    {
+      "file": "results_rainbowdqn_ablation/rl_generation_rainbowdqn_ablation_20251128_232319/baseline/full_config/alpaca_eval_gemma_20251129_010419/summary/attack_usage_stats_test.json",
+      "matches": 1,
+      "details": [
+        {
+          "attack": "FlipAttackFCS",
+          "count": 161,
+          "target_count": 161,
+          "asr": 31.05590062111801,
+          "target_asr": 31.1,
+          "count_match": true,
+          "asr_match": true
+        },
+        {
+          "attack": "MarkerInjectionAttack",
+          "count": 138,
+          "target_count": 153,
+          "asr": 57.971014492753625,
+          "target_asr": 55.6,
+          "count_match": false,
+          "asr_match": false
+        },
+        {
+          "attack": "PositionAttack",
+          "count": 0,
+          "target_count": 28,
+          "asr": 0.0,
+          "target_asr": 21.4,
+          "count_match": false,
+          "asr_match": false
+        }
+      ]
+    }
+  ]
+}

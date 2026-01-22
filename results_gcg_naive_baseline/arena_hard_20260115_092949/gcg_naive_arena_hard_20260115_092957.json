@@ -1,0 +1,32 @@
+{
+  "experiment_info": {
+    "benchmark": "arena_hard",
+    "timestamp": "20260115_092957",
+    "gcg_config": {
+      "steps": 100,
+      "search_width": 64,
+      "topk": 64,
+      "n_replace": 1,
+      "buffer_size": 2,
+      "use_mellowmax": false,
+      "early_stop": false,
+      "use_prefix_cache": false,
+      "allow_non_ascii": false,
+      "filter_ids": true
+    },
+    "judge_model_path": "/root/autodl-tmp/Qwen2.5-7B-Instruct",
+    "device": "cuda",
+    "judge_dtype": "auto",
+    "random_seed": 42,
+    "validation_interval": 20,
+    "version": "naive"
+  },
+  "test_results": {
+    "total_samples": 0,
+    "successful_attacks": 0,
+    "overall_asr": 0.0,
+    "avg_queries_used": 0.0,
+    "avg_queries_successful": 0.0,
+    "attack_results": []
+  }
+}
